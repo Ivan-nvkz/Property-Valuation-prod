@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Новости </title>
+   <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+   <link rel="manifest" href="images/favicons/site.webmanifest">
+   <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#2d89ef">
+   <meta name="theme-color" content="#248fff">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/choices.min.css">
+   <link rel="stylesheet" href="css/jquery.readall.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+   <div class="wrapper">
+      <div class="btn__up">&uarr;</div>
+
+      <header class="header  news-header">
+         <div class="container-big  header__container-big">
+            <div class="container">
+               <div class="header__top">
+                  <div class="header__top-inner">
+                     <a class="logo" href="#">
+                        <img class="logo__img" src="images/logo.svg" alt="">
+                     </a>
+                     <nav class="menu">
+                        <ul class="menu__list">
+                           <li class="menu__list-item">
+                              <a class="menu__list-link" href="#">О компании</a>
+                           </li>
+                           <li class="menu__list-item">
+                              <a class="menu__list-link" href="#">Акции</a>
+                           </li>
+                           <li class="menu__list-item">
+                              <a class="menu__list-link  menu__link--decor" href="#">Новости</a>
+                           </li>
+                           <li class="menu__list-item">
+                              <a class="menu__list-link" href="#">Контакты</a>
+                           </li>
+                        </ul>
+                     </nav>
+                     <nav class="menu__mobile">
+                        <ul class="menu__list-mobile">
+                           <li class="menu__list-item">
+                              <div class="bottom-menu-mobile__block">
+                                 <nav class="bottom-menu">
+                                    <ul class="bottom-menu__list">
+                                       <li class="bottom-menu__list-item bottom-menu__list-item-bank">
+                                          <p
+                                             class="bottom-menu__list-link bottom-menu__list-link-bank  bottom-menu__list-link-bank-mobile">
+                                             Оценка
+                                             для банка</p>
+                                          <svg class="mobile-menu__arrow" width="9" height="6" viewBox="0 0 9 6"
+                                             fill="none" xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M4.5 5.51047C4.36637 5.51047 4.23327 5.45977 4.1313 5.35809L0.152739 1.37954C-0.0509132 1.17564 -0.0509132 0.845785 0.152739 0.642424C0.356392 0.438528 0.686247 0.438528 0.889851 0.642424L4.5 4.25228L8.11015 0.642424C8.3138 0.438528 8.64366 0.438528 8.84726 0.642424C9.05091 0.846076 9.05091 1.17564 8.84726 1.37954L4.86846 5.35809C4.76678 5.45977 4.63339 5.51047 4.5 5.51047Z"
+                                                fill="#152242" />
+                                          </svg>
+                                          <ul class="bottom- sub- menu__list    bottom-sub-menu__list-mobile">
+                                             <li class="bottom-sub-menu__list-item">
+                                                <a class="bottom-sub-menu__list-link" href="#">Сбербанк</a>
+                                             </li>
+                                             <li class="bottom-sub-menu__list-item">
+                                                <a class="bottom-sub-menu__list-link" href="#">Альфа банк</a>
+                                             </li>
+                                             <li class="bottom-sub-menu__list-item">
+                                                <a class="bottom-sub-menu__list-link" href="#">Открытие</a>
+                                             </li>
+                                             <li class="bottom-sub-menu__list-item">
+                                                <a class="bottom-sub-menu__list-link" href="#">Ак Барс</a>
+                                             </li>
+                                             <li class="bottom-sub-menu__list-item">
+                                                <a class="bottom-sub-menu__list-link" href="#">Россия</a>
+                                             </li>
+                                             <li class="bottom-sub-menu__list-item">
+                                                <a class="bottom-sub-menu__list-link" href="#">Уралсиб банк</a>
+                                             </li>
+                                          </ul>
+                                       </li>
+                                       <li class="bottom-menu__list-item">
+                                          <a class="bottom-menu__list-link" href="page-apartment.html">Оценка
+                                             квартир</a>
+                                       </li>
+                                       <li class="bottom-menu__list-item">
+                                          <a class="bottom-menu__list-link" href="#">Оценка загородной недвижимости</a>
+                                       </li>
+                                       <li class="bottom-menu__list-item">
+                                          <a class="bottom-menu__list-link" href="#">приемка квартир</a>
+                                       </li>
+
+                                    </ul>
+                                 </nav>
+                              </div>
+                           </li>
+                           <li class="menu__list-item">
+                              <a class="menu__list-link" href="page-company.html">О компании</a>
+                           </li>
+                           <li class="menu__list-item">
+                              <a class="menu__list-link" href="#">Акции</a>
+                           </li>
+                           <li class="menu__list-item">
+                              <a class="menu__list-link" href="page-news.html">Новости</a>
+                           </li>
+                           <li class="menu__list-item">
+                              <a class="menu__list-link" href="#">Контакты</a>
+                           </li>
+                           <li class="menu__list-item">
+                              <div class="mobile-contacts__block">
+                                 <div class="contacts__phone-box">
+                                    <a class="contacts__phone" href="tel:+78124051040">
+                                       <svg class="contacts__phone-img" width="15" height="15" viewBox="0 0 15 15"
+                                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M14.9996 11.217V13.467C15.0004 13.6758 14.9576 13.8826 14.874 14.074C14.7903 14.2654 14.6675 14.4372 14.5136 14.5784C14.3597 14.7196 14.178 14.8271 13.9801 14.894C13.7823 14.9609 13.5726 14.9858 13.3646 14.967C11.0567 14.7162 8.83981 13.9276 6.89208 12.6645C5.07995 11.513 3.54358 9.97662 2.39208 8.16449C1.12457 6.2079 0.335762 3.98024 0.0895823 1.66199C0.0708423 1.45459 0.0954923 1.24556 0.161962 1.04821C0.228432 0.850859 0.335262 0.669509 0.475662 0.515709C0.616052 0.361909 0.786942 0.239019 0.977432 0.154879C1.16791 0.0707391 1.37384 0.0271891 1.58208 0.0269891H3.83208C4.19606 0.0234091 4.54893 0.152299 4.8249 0.389639C5.10088 0.626979 5.28114 0.956579 5.33208 1.31699C5.42705 2.03704 5.60317 2.74404 5.85708 3.42449C5.95799 3.69294 5.97983 3.98468 5.92001 4.26515C5.86019 4.54563 5.72123 4.80308 5.51958 5.00699L4.56708 5.95949C5.63475 7.83715 7.18942 9.39182 9.06711 10.4595L10.0196 9.50702C10.2235 9.30532 10.4809 9.16642 10.7614 9.10652C11.0419 9.04672 11.3336 9.06862 11.6021 9.16952C12.2825 9.42342 12.9895 9.59952 13.7096 9.69452C14.0739 9.74592 14.4066 9.92942 14.6445 10.2101C14.8823 10.4908 15.0087 10.8492 14.9996 11.217Z"
+                                             fill="#0468FF" />
+                                       </svg>
+                                       +7 (812) 405 10 40
+                                    </a>
+                                    <p class="  contacts__hours-mobile">
+                                       ПН - ПТ: с 09:00 до 19:00
+                                    </p>
+                                 </div>
+                                 <div class="bottom__social-block-mobile">
+                                    <div class="social-block__inner">
+                                       <div class="social-block">
+                                          <a class="social__link" href="#">
+                                             <img class="social__img" src="images/icons/social-telegram.png"
+                                                alt="telegram">
+                                          </a>
+                                          <a class="social__link" href="#">
+                                             <img class="social__img" src="images/icons/social-whatsapp.png"
+                                                alt="whatsapp">
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </nav>
+                     <div class="header__contacts">
+                        <div class="header__contacts-inner">
+                           <div class="contacts__address-box">
+                              <svg class="contacts__address-img" width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M0.333496 6.75L14.5835 0L7.8335 14.25L6.3335 8.25L0.333496 6.75Z"
+                                    fill="#0468FF" />
+                              </svg>
+                              <p class="contacts__address-city">
+                                 г. Санкт-Петербург
+                              </p>
+                              <p class="contacts__address-street">
+                                 ул. Торжковская дом 2, корпус 1
+                              </p>
+                           </div>
+                           <div class="contacts__phone-box">
+                              <a class="contacts__phone" href="tel:+78124051040">
+                                 <svg class="contacts__phone-img" width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M14.9996 11.217V13.467C15.0004 13.6758 14.9576 13.8826 14.874 14.074C14.7903 14.2654 14.6675 14.4372 14.5136 14.5784C14.3597 14.7196 14.178 14.8271 13.9801 14.894C13.7823 14.9609 13.5726 14.9858 13.3646 14.967C11.0567 14.7162 8.83981 13.9276 6.89208 12.6645C5.07995 11.513 3.54358 9.97662 2.39208 8.16449C1.12457 6.2079 0.335762 3.98024 0.0895823 1.66199C0.0708423 1.45459 0.0954923 1.24556 0.161962 1.04821C0.228432 0.850859 0.335262 0.669509 0.475662 0.515709C0.616052 0.361909 0.786942 0.239019 0.977432 0.154879C1.16791 0.0707391 1.37384 0.0271891 1.58208 0.0269891H3.83208C4.19606 0.0234091 4.54893 0.152299 4.8249 0.389639C5.10088 0.626979 5.28114 0.956579 5.33208 1.31699C5.42705 2.03704 5.60317 2.74404 5.85708 3.42449C5.95799 3.69294 5.97983 3.98468 5.92001 4.26515C5.86019 4.54563 5.72123 4.80308 5.51958 5.00699L4.56708 5.95949C5.63475 7.83715 7.18942 9.39182 9.06711 10.4595L10.0196 9.50702C10.2235 9.30532 10.4809 9.16642 10.7614 9.10652C11.0419 9.04672 11.3336 9.06862 11.6021 9.16952C12.2825 9.42342 12.9895 9.59952 13.7096 9.69452C14.0739 9.74592 14.4066 9.92942 14.6445 10.2101C14.8823 10.4908 15.0087 10.8492 14.9996 11.217Z"
+                                       fill="#0468FF" />
+                                 </svg>
+                                 +7 (812) 405 10 40
+                              </a>
+                              <p class="contacts__hours">
+                                 ПН - ПТ: с 09:00 до 19:00
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <button type="button" class="icon-menu"><span></span></button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header__bottom">
+            <div class="container-big">
+               <div class="container">
+                  <div class="header__bottom-inner" data-da=".menu__list ,767,last">
+                     <div class="bottom-menu__block">
+                        <nav class="bottom-menu">
+                           <ul class="bottom-menu__list">
+                              <li class="bottom-menu__list-item bottom-menu__list-item-bank">
+                                 <a class="bottom-menu__list-link bottom-menu__list-link-bank" href="#">Оценка для
+                                    банка</a>
+                                 <svg class="menu__arrow arrow" width="9" height="6" viewBox="0 0 9 6" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M4.5 5.51047C4.36637 5.51047 4.23327 5.45977 4.1313 5.35809L0.152739 1.37954C-0.0509132 1.17564 -0.0509132 0.845785 0.152739 0.642424C0.356392 0.438528 0.686247 0.438528 0.889851 0.642424L4.5 4.25228L8.11015 0.642424C8.3138 0.438528 8.64366 0.438528 8.84726 0.642424C9.05091 0.846076 9.05091 1.17564 8.84726 1.37954L4.86846 5.35809C4.76678 5.45977 4.63339 5.51047 4.5 5.51047Z"
+                                       fill="#152242" />
+                                 </svg>
+                                 <ul class="bottom-sub-menu__list">
+                                    <li class="box-shadow-item">
+                                       <ul class="box-shadow-list">
+                                          <li class="bottom-sub-menu__list-item">
+                                             <a class="bottom-sub-menu__list-link" href="#">оценка квартир</a>
+                                             <svg class="sub-menu__arrow arrow" width="9" height="6" viewBox="0 0 9 6"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M4.5 5.51047C4.36637 5.51047 4.23327 5.45977 4.1313 5.35809L0.152739 1.37954C-0.0509132 1.17564 -0.0509132 0.845785 0.152739 0.642424C0.356392 0.438528 0.686247 0.438528 0.889851 0.642424L4.5 4.25228L8.11015 0.642424C8.3138 0.438528 8.64366 0.438528 8.84726 0.642424C9.05091 0.846076 9.05091 1.17564 8.84726 1.37954L4.86846 5.35809C4.76678 5.45977 4.63339 5.51047 4.5 5.51047Z"
+                                                   fill="#152242" />
+                                             </svg>
+                                             <ul class="bottom-sub-sub-menu__list">
+                                                <li class="box-shadow-item">
+                                                   <ul class="box-shadow-list">
+                                                      <li class="bottom-sub-sub-menu__list-item">
+                                                         <a class="bottom-sub-sub-menu__list-link" href="#">третий
+                                                            уровень</a>
+                                                         <svg class="sub-sub-menu__arrow arrow" width="9" height="6"
+                                                            viewBox="0 0 9 6" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                               d="M4.5 5.51047C4.36637 5.51047 4.23327 5.45977 4.1313 5.35809L0.152739 1.37954C-0.0509132 1.17564 -0.0509132 0.845785 0.152739 0.642424C0.356392 0.438528 0.686247 0.438528 0.889851 0.642424L4.5 4.25228L8.11015 0.642424C8.3138 0.438528 8.64366 0.438528 8.84726 0.642424C9.05091 0.846076 9.05091 1.17564 8.84726 1.37954L4.86846 5.35809C4.76678 5.45977 4.63339 5.51047 4.5 5.51047Z"
+                                                               fill="#152242" />
+                                                         </svg>
+                                                         <ul class="bottom-sub-sub-sub-menu__list">
+                                                            <li class="box-shadow-item">
+                                                               <ul class="box-shadow-list">
+                                                                  <li class="bottom-sub-sub-sub-menu__list-item">
+                                                                     <a class="bottom-sub-sub-sub-menu__list-link"
+                                                                        href="#">четвёртый
+                                                                        уровень</a>
+                                                                  </li>
+                                                                  <li class="bottom-sub-sub-sub-menu__list-item">
+                                                                     <a class="bottom-sub-sub-sub-menu__list-link"
+                                                                        href="#">четвёртый
+                                                                        уровень</a>
+                                                                  </li>
+                                                               </ul>
+                                                            </li>
+                                                         </ul>
+                                                      </li>
+                                                      <li class="bottom-sub-sub-menu__list-item">
+                                                         <a class="bottom-sub-sub-menu__list-link" href="#">третий
+                                                            уровень</a>
+                                                      </li>
+                                                      <li class="bottom-sub-sub-menu__list-item">
+                                                         <a class="bottom-sub-sub-menu__list-link" href="#">третий
+                                                            уровень</a>
+                                                      </li>
+                                                   </ul>
+                                                </li>
+                                             </ul>
+                                          </li>
+                                          <li class="bottom-sub-menu__list-item">
+                                             <a class="bottom-sub-menu__list-link" href="#">оценка комнат</a>
+                                          </li>
+                                          <li class="bottom-sub-menu__list-item">
+                                             <a class="bottom-sub-menu__list-link" href="#">оценка домов</a>
+                                          </li>
+                                          <li class="bottom-sub-menu__list-item">
+                                             <a class="bottom-sub-menu__list-link" href="#">оценка участков</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="bottom-menu__list-item">
+                                 <a class="bottom-menu__list-link" href="page-apartment.html">Оценка квартир</a>
+                              </li>
+                              <li class="bottom-menu__list-item">
+                                 <a class="bottom-menu__list-link" href="#">Оценка загородной недвижимости</a>
+                              </li>
+                              <li class="bottom-menu__list-item">
+                                 <a class="bottom-menu__list-link" href="#">приемка квартир</a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                     <div class="bottom__social-block">
+                        <div class="social-block__inner">
+                           <div class="social-block">
+                              <a class="social__link" href="#">
+                                 <img class="social__img" src="images/icons/social-telegram.png" alt="telegram">
+                              </a>
+                              <a class="social__link" href="#">
+                                 <img class="social__img" src="images/icons/social-whatsapp.png" alt="whatsapp">
+                              </a>
+                           </div>
+                           <button class="payment__btn"> онлайн оплата</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </header>
+
+      <div class="breadcrumbs">
+         <div class="container-big">
+            <div class="container">
+               <div class="breadcrumbs__body">
+                  <div class="breadcrumbs__inner">
+                     <ul class="breadcrumbs__list mobile-overflow ">
+                        <li class="breadcrumbs__list-item">
+                           <a class="breadcrumbs__list-item-link breadcrumbs__list-item-link--great "
+                              href="index.html">Главная</a>
+                        </li>
+                        <li class="breadcrumbs__list-item">
+                           <span class="breadcrumbs__list-item-link--color">Новости</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <main class="main">
+
+         <section class="page-news">
+            <div class="container-big">
+               <div class="container">
+                  <div class="section__title-box page-news__title-box">
+                     <h2 class="section__title  page-news__title ">Новости</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="container-big">
+               <div class="container">
+                  <div class="page-news__inner">
+                     <div class="page-news__items">
+                        <div class="page-news__item  page-news__item--color">
+                           <div class="page-news__item-block ">
+                              <a class="page-news-item-block__pictures" href="page-one-news.html">
+                                 <img class="page-news-item-block__images" src="images/news-img.png" alt="">
+                              </a>
+                              <div class="page-news-item-block__body">
+                                 <a class="page-news-item-block__title" href="page-one-news.html">Новость о
+                                    новстройках</a>
+                                 <div class="page-news-item-block__text">
+                                    Закажите приемку квартиры вместе с оценкой для банка с дополнительной выгодой
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="page-news__item  page-news__item--color">
+                           <div class="page-news__item-block ">
+                              <a class="page-news-item-block__pictures" href="page-one-news.html">
+                                 <img class="page-news-item-block__images" src="images/news-img.png" alt="">
+                              </a>
+                              <div class="page-news-item-block__body">
+                                 <a class="page-news-item-block__title" href="page-one-news.html">Новость о
+                                    новстройках</a>
+                                 <div class="page-news-item-block__text">
+                                    Закажите приемку квартиры вместе с оценкой для банка с дополнительной выгодой
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="page-news__item  page-news__item--color">
+                           <div class="page-news__item-block ">
+                              <a class="page-news-item-block__pictures" href="page-one-news.html">
+                                 <img class="page-news-item-block__images" src="images/news-img.png" alt="">
+                              </a>
+                              <div class="page-news-item-block__body">
+                                 <a class="page-news-item-block__title" href="page-one-news.html">Новость о
+                                    новстройках</a>
+                                 <div class="page-news-item-block__text">
+                                    Закажите приемку квартиры вместе с оценкой для банка с дополнительной выгодой
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="page-news__item  page-news__item--color">
+                           <div class="page-news__item-block ">
+                              <a class="page-news-item-block__pictures" href="page-one-news.html">
+                                 <img class="page-news-item-block__images" src="images/news-img.png" alt="">
+                              </a>
+                              <div class="page-news-item-block__body">
+                                 <a class="page-news-item-block__title" href="page-one-news.html">Новость о
+                                    новстройках</a>
+                                 <div class="page-news-item-block__text">
+                                    Закажите приемку квартиры вместе с оценкой для банка с дополнительной выгодой
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="page-news__item  page-news__item--color">
+                           <div class="page-news__item-block ">
+                              <a class="page-news-item-block__pictures" href="page-one-news.html">
+                                 <img class="page-news-item-block__images" src="images/news-img.png" alt="">
+                              </a>
+                              <div class="page-news-item-block__body">
+                                 <a class="page-news-item-block__title" href="page-one-news.html">Новость о
+                                    новстройках</a>
+                                 <div class="page-news-item-block__text">
+                                    Закажите приемку квартиры вместе с оценкой для банка с дополнительной выгодой
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="page-news__item  page-news__item--color">
+                           <div class="page-news__item-block ">
+                              <a class="page-news-item-block__pictures" href="page-one-news.html">
+                                 <img class="page-news-item-block__images" src="images/news-img.png" alt="">
+                              </a>
+                              <div class="page-news-item-block__body">
+                                 <a class="page-news-item-block__title" href="page-one-news.html">Новость о
+                                    новстройках</a>
+                                 <div class="page-news-item-block__text">
+                                    Закажите приемку квартиры вместе с оценкой для банка с дополнительной выгодой
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="page-news__item  page-news__item--color">
+                           <div class="page-news__item-block ">
+                              <a class="page-news-item-block__pictures" href="page-one-news.html">
+                                 <img class="page-news-item-block__images" src="images/news-img.png" alt="">
+                              </a>
+                              <div class="page-news-item-block__body">
+                                 <a class="page-news-item-block__title" href="page-one-news.html">Новость о
+                                    новстройках</a>
+                                 <div class="page-news-item-block__text">
+                                    Закажите приемку квартиры вместе с оценкой для банка с дополнительной выгодой
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="page-news__item  page-news__item--color">
+                           <div class="page-news__item-block ">
+                              <a class="page-news-item-block__pictures" href="page-one-news.html">
+                                 <img class="page-news-item-block__images" src="images/news-img.png" alt="">
+                              </a>
+                              <div class="page-news-item-block__body">
+                                 <a class="page-news-item-block__title" href="page-one-news.html">Новость о
+                                    новстройках</a>
+                                 <div class="page-news-item-block__text">
+                                    Закажите приемку квартиры вместе с оценкой для банка с дополнительной выгодой
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="page-news__item  page-news__item--color">
+                           <div class="page-news__item-block ">
+                              <a class="page-news-item-block__pictures" href="page-one-news.html">
+                                 <img class="page-news-item-block__images" src="images/news-img.png" alt="">
+                              </a>
+                              <div class="page-news-item-block__body">
+                                 <a class="page-news-item-block__title" href="page-one-news.html">Новость о
+                                    новстройках</a>
+                                 <div class="page-news-item-block__text">
+                                    Закажите приемку квартиры вместе с оценкой для банка с дополнительной выгодой
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+      </main>
+
+
+      <footer class="footer">
+         <div class="container-big">
+            <div class="container">
+               <div class="footer__inner">
+                  <div class="footer__body">
+                     <a class="footer__logo" href="#">
+                        <img class="footer__logo-img" src="images/logo-footer.svg" alt="логотип">
+                     </a>
+                     <nav class="footer__menu">
+                        <ul class="footer-menu__list">
+                           <li class="footer-menu__list-item">
+                              <a class="footer-menu__list-link" href="#">О компании</a>
+                           </li>
+                           <li class="footer-menu__list-item">
+                              <a class="footer-menu__list-link" href="#">Акции</a>
+                           </li>
+                           <li class="footer-menu__list-item">
+                              <a class="footer-menu__list-link" href="#">Новости</a>
+                           </li>
+                           <li class="footer-menu__list-item">
+                              <a class="footer-menu__list-link" href="#">Контакты</a>
+                           </li>
+                        </ul>
+                     </nav>
+                     <p class="copy">
+                        © 2022 Все права защищены. Информация, на сайте носит информационный характер и ни при каких
+                        условиях не является публичной офертой.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <div class="hystmodal" id="application" aria-hidden="true">
+         <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+               <button data-hystclose class="hystmodal__close application-popup__close">Закрыть</button>
+               <div class="application-popup__body">
+                  <div class="application-popup__body-inner">
+                     <div class="application-popup__form-block">
+                        <form class="application-popup__form" action="#">
+                           <div class="application-popup__form-body">
+                              <p class="application-popup__form-title">
+                                 Перезвоним
+                              </p>
+                              <p class="application-popup__form-message">
+                                 Оставьте контакты, и наш специалист свяжется с Вами через 40 секунд!
+                              </p>
+                              <div class="application-popup__input-box">
+                                 <input class="application-popup__input" type="text" placeholder="Введите ваше имя"
+                                    name="application-name">
+                              </div>
+                              <div class="application-popup__input-box">
+                                 <input class="application-popup__input" type="tel" placeholder="Ваш номер телефона"
+                                    name="application-phone">
+                              </div>
+                              <button type="submit" class="application-popup__btn">
+                                 отправить
+                              </button>
+                              <p class="application-popup__description">
+                                 Нажимая на кнопку “Заказать оценку”, вы даете
+                                 согласие на обработку своих персональных данных
+                              </p>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+
+
+
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+   <script src="js/hystmodal.min.js"></script>
+   <script src="js/choices.min.js"></script>
+   <script src="js/inputmask.min.js"></script>
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
